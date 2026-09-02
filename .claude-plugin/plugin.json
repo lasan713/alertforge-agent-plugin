@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "alertforge",
+  "displayName": "AlertForge",
+  "version": "1.0.0",
+  "description": "Create stream branding, animated overlays, AI alerts, and transparent video assets with AlertForge.",
+  "author": {
+    "name": "AlertForge",
+    "email": "support@alertforge.ai",
+    "url": "https://alertforge.ai"
+  },
+  "homepage": "https://alertforge.ai/ai-agents",
+  "repository": "https://github.com/kasunjith713/alertforge-agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "alertforge",
+    "stream-overlays",
+    "stream-alerts",
+    "obs",
+    "twitch",
+    "youtube",
+    "kick"
+  ],
+  "mcpServers": "./.mcp.json"
+}

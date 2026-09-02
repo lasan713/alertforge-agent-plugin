@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alertforge": {
+      "type": "streamable-http",
+      "url": "https://alertforge.ai/api/mcp"
+    }
+  }
+}
