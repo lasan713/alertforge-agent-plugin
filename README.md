@@ -13,7 +13,7 @@ This repository contains only portable plugin metadata and workflow instructions
 
 ## Authentication and billing
 
-The three product-information tools are public. Account tools use AlertForge's OAuth 2.1 authorization-code flow with PKCE and require an eligible AlertForge account. Creation uses the account's AlertForge credit balance; the tools quote costs before the corresponding create action.
+The `get_product_info` tool is public. All other tools use AlertForge's OAuth 2.1 authorization-code flow with PKCE (or a revocable access key for older clients) and require an active paid AlertForge subscription. Creation uses the account's AlertForge credit balance; the tools quote costs before the corresponding create action.
 
 No credentials are stored in this repository. OAuth-capable clients discover authentication from AlertForge's published metadata.
 
